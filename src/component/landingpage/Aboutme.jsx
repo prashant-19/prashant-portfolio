@@ -18,7 +18,7 @@ const Aboutme = () => {
           <button className="mt-8 flex flex-row text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl text- 
                     px-8 py-5 dark:bg-gray-800 dark:hover:bg-gray-700
                      dark:focus:ring-gray-700 dark:border-gray-700"> 
-          <AiTwotoneSnippets className="w-6 h-6 text-white pr-1" /> Download CV </button>
+          <AiTwotoneSnippets className="w-6 h-6 text-white pr-1" /> CV </button>
        </div>
       <div className=" basis-1/2">
 
