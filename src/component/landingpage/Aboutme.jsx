@@ -5,8 +5,8 @@ import resume from "../../images/Prashant_Resume.pdf"
 
 const Aboutme = () => {
   return (
-    <>
-    <div className=" flex flex-col lg:flex-row-reverse bg-gray-300 py-20 px-44 ">
+    <div >
+    <div id="about" className=" flex flex-col lg:flex-row-reverse bg-gray-300 py-20 px-44 ">
        <div className=" basis-1/2 mx-10">
        <p className="text-left font-bold text-4xl ">About <span className=" text-blue-500" >Me</span></p>
         <p className="text-justify text-2xl pt-6 ">Lorem ipsum dolor sit amet consectetur 
@@ -33,7 +33,7 @@ const Aboutme = () => {
       </div>
 
     </div>
-    </>
+    </div>
   );
 };
 

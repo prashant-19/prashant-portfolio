@@ -3,7 +3,7 @@ import { FcContacts } from "react-icons/fc";
 const intro = () => {
     return (
         <>
-            <div className="min-h-screen flex flex-col lg:flex-row bg-gray-200 px-44 ">
+            <div id="home" className="min-h-screen flex flex-col lg:flex-row bg-gray-200 px-44 ">
                 <div className=" basis-1/2 my-48 px-10">
                     <p className="text-5xl font-bold text-left">Hey! I'm <span className=" text-5xl text-blue-500">Prashant </span><span className="animate-waving-hand">👋🏻</span> </p>
                     <p className="text-2xl  text-justify py-4">Lorem ipsum dolor sit amet consectetur adipisicing
