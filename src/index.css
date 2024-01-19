@@ -21,12 +21,12 @@ body {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #240050;
+  background: #111827;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #070707;
+  background: #414141;
 }
 
 /* Tailwind CSS directives */

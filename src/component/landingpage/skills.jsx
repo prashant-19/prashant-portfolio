@@ -2,7 +2,6 @@ import React from "react";
 
 const skills = () => {
     let Skill = [
-        
         { name: 'HTML' },
         { name: 'CSS' },
         { name: 'JavaScript' },
@@ -20,7 +19,7 @@ const skills = () => {
     ]
     return (
         <>
-            <div className="hidden sm:block pt-10 pb-20 bg-gray-200 ">
+            <div className=" pt-10 pb-20 bg-gray-200 ">
               
                 <p className="text-center font-bold text-4xl">My Skills</p>
                 
