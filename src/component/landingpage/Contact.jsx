@@ -1,11 +1,20 @@
 import React from "react";
 
 const Contact = () => {
-    return(
+    return (
         <>
-        <div id="contact" className="bg-gray-200 pt-40 py-40">
-           <p className="text-center font-semibold text-4xl" > Contact </p>
-        </div>
+            <div id="contact" className="bg-gray-200">
+                <p className="text-left font-bold text-4xl pl-20 py-20" > Contact </p>
+
+                <div className="flex flex-row">
+                    <div>
+                           card 
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
         </>
     )
 }

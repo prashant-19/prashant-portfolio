@@ -17,7 +17,7 @@ const Aboutme = () => {
           voluptatem quis voluptatum?</p> 
 
           <a href={resume} download="Prashant_Resume">
-          <button className="lg:mt-8 lg:mx-0 mx-20 mt-6 flex flex-row text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl text- 
+          <button className="lg:mt-8 lg:mx-0 mx-auto mt-6 flex flex-row text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl text- 
                     px-4 py-4 lg:px-8 lg:py-5 dark:bg-gray-800 dark:hover:bg-gray-700
                      dark:focus:ring-gray-700 dark:border-gray-700"> 
           <AiTwotoneSnippets className="w-6 h-6 text-white pr-1" />
