@@ -5,8 +5,8 @@
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    margin: 40px;
-    border-color: black;
+    margin: 50px;
+    
     animation: animate 20s ease-in-out infinite;
     transition: all 1s ease-in-out;
 }

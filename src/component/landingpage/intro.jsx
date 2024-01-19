@@ -17,9 +17,9 @@ const intro = () => {
 
     return (
         <>
-            <div id="home" className="md:min-h-screen flex flex-col-reverse px-5 pb-20 md:flex-row bg-gray-200 md:px-56 ">
+            <div id="home" className="md:min-h-screen flex flex-col-reverse px-2 pb-20 md:flex-row bg-gray-200 md:px-56 ">
                 <div className=" basis-1/2 mx-10  md:my-48 md:mx-10">
-                    <p className="text-4xl text-center md:text-5xl font-bold md:text-left">Hey! I'm <span className=" text-5xl text-blue-500">Prashant</span> 👋🏻 </p>
+                    <p className="text-4xl text-center md:text-5xl font-bold md:text-left">Hey! I'm <span className=" text-4xl text-blue-500">Prashant</span> 👋🏻 </p>
                     <p className="md:text-2xl text-justify py-4 md:py-4">Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Qui reiciendis eos
                         saepe labore dicta reprehenderit odit
@@ -27,7 +27,7 @@ const intro = () => {
                     </p>
 
                     <button onClick={() => scrollToSection('contact')}
-                        className="flex flex-row mx-20 mt-2 lg:mx-0 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl 
+                        className="flex flex-row mx-24 mt-2 lg:mx-0 text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl 
                               px-4 py-4 lg:px-8 lg:py-5 dark:bg-gray-800 dark:hover:bg-gray-700
                              dark:focus:ring-gray-700 dark:border-gray-700">
 
