@@ -23,7 +23,7 @@ const skills = () => {
               
                 <p className="text-center font-bold text-4xl">My Skills</p>
                 
-                <ul className=" flex flex-wrap lg:mx-96 gap-y-3 gap-x-2 justify-center mt-10">
+                <ul className=" flex flex-wrap mx-5 lg:mx-96 gap-y-3 gap-x-2 justify-center mt-10">
 
                     {Skill.map((item) =>
                         <li className='  border-2 border-gray-400 hover:bg-slate-300 px-4 text-sm py-2 rounded-3xl'>
