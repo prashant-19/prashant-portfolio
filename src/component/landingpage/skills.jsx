@@ -29,9 +29,9 @@ const skills = () => {
 
     return (
         <>
-            <div className=" pt-10 pb-20 bg-gray-200 ">
+            <div className=" pt-24 pb-32 bg-gray-200 ">
 
-                <p className="text-center font-bold text-4xl">My Skills</p>
+                <p className="text-center font-semibold lg:font-bold text-3xl lg:text-4xl">My Skills</p>
 
                 <ul className=" flex flex-wrap mx-5  lg:mx-80 gap-y-3 gap-x-2 justify-center mt-10">
 

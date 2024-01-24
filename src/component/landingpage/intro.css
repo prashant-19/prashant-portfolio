@@ -5,7 +5,11 @@
     background-size: cover;
     -webkit-background-position: center;
     background-position: center center;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+
     border: 5px solid #000000;
     animation: animate 18s ease-in-out infinite;
     transition: all 1s ease-in-out;
