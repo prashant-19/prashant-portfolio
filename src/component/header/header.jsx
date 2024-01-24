@@ -2,7 +2,7 @@ import React from "react";
 
 
 const Header = () => {
-  const headerHeight = 80; // Change this value to your actual header height
+  const headerHeight = 74; // Change this value to your actual header height
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);

@@ -11,14 +11,14 @@ const Contact = () => {
     let data = [
 
         { name: " LinkedIn", logo: <FaLinkedinIn />, link: "https://www.linkedin.com/feed/" },
-        { name: " Github" , logo: <FaGithub />, link:""},
+        { name: " Github" , logo: <FaGithub />, link:"https://github.com/prashant-19"},
         { name: " Gmail" , logo: <SiGmail />, link:"mailto:prashant.my10@gmail.com?subject = Feedback&body = Message"},
 
     ]
     return (
         <>
             <div id="contact" className="bg-gray-200 pt-20">
-                <p className=" hidden md:block text-left font-semibold lg:font-bold text-4xl mx-10 mb-10 lg:mx-32 lg:mb-20 pl-2 lg:pl-4 pb-1 border-l-4 border-blue-400" > Contact </p>
+                <p className=" hidden md:block text-left font-semibold text-4xl mx-10 mb-10 lg:mx-32 lg:mb-20 pl-2 lg:pl-4 pb-1 border-l-4 border-blue-400" > Contact </p>
 
                 <div className="flex flex-col-reverse lg:flex-row">
 

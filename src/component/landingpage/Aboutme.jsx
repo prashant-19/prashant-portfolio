@@ -10,7 +10,7 @@ const Aboutme = () => {
       <div className="hidden md:block">
         <div className=" flex flex-col-reverse lg:flex-row-reverse bg-gray-300 py-14 lg:py-20 px-12 md:px-36">
           <div className=" basis-1/2  lg:mx-10">
-            <p className="text-left  text-3xl mt-7 lg:pt-0 lg:mt-3 font-bold lg:text-4xl pb-1 pl-4 border-l-4 border-blue-400 ">About Me</p>
+            <p className="text-left  text-3xl mt-7 lg:pt-0 lg:mt-3 font-semibold lg:text-4xl pb-1 pl-4 border-l-4 border-blue-400 ">About Me</p>
             <p className="text-justify pt-4 lg:text-lg lg:pt-5 text-gray-900 ">I am a versatile software developer, working professionally since January 2023.
               Currently employed as a Full Stack Developer at Rhizobee Innovations where
               I am leveraging my skills to develop their platform.

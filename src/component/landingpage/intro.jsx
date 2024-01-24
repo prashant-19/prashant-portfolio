@@ -5,7 +5,7 @@ import "../../component/landingpage/intro.css"
 
 const intro = () => {
 
-    const headerHeight = 95; // Change this value to your actual header height
+    const headerHeight = 75; // Change this value to your actual header height
 
     const scrollToSection = (id) => {
         const element = document.getElementById(id);

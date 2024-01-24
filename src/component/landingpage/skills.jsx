@@ -29,9 +29,9 @@ const skills = () => {
 
     return (
         <>
-            <div className=" pt-24 pb-32 bg-gray-200 ">
+            <div className=" pt-16 lg:pt-24 lg:pb-14 bg-gray-200 ">
 
-                <p className="text-center font-semibold lg:font-bold text-3xl lg:text-4xl">My Skills</p>
+                <p className="text-center font-semibold text-3xl lg:text-4xl">Skills</p>
 
                 <ul className=" flex flex-wrap mx-5  lg:mx-80 gap-y-3 gap-x-2 justify-center mt-10">
 
@@ -46,6 +46,10 @@ const skills = () => {
                     )}
                 </ul>
 
+            </div>
+
+            <div className="hidden lg:block bg-gray-200">
+                <p className=" border-b-4 bg-[#889c8d] border-dashed mx-80"></p>
             </div>
 
         </>

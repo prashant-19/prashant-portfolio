@@ -4,6 +4,7 @@ import Aboutme from "./Aboutme";
 import Skills from "./skills";
 import Project from "./Project";
 import Contact from "./Contact";
+import Certificate from "./Certificate";
 
 
 export const Landingpage = () => {
@@ -12,8 +13,10 @@ export const Landingpage = () => {
       <Introduction/>
       <Aboutme/>
       <Skills/>
+      <Certificate/>
       <Project/>
       <Contact/>
+      
     </>
   )
 }
