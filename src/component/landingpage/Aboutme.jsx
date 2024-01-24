@@ -6,33 +6,41 @@ import resume from "../../images/Prashant_Resume.pdf"
 const Aboutme = () => {
   return (
     <div >
-    <div id="about" className=" flex flex-col-reverse lg:flex-row-reverse bg-gray-300 py-20 px-12 md:px-44 ">
-       <div className=" basis-1/2  lg:mx-10">
-       <p className="text-center text-3xl pt-6 lg:pt-0 lg:text-left font-bold lg:text-4xl ">About <span className=" text-blue-500" >Me</span></p>
-        <p className="text-justify pt-4 lg:text-2xl lg:pt-6 ">Lorem ipsum dolor sit amet consectetur 
-          adipisicing elit. Qui reiciendis eos 
-          saepe labore dicta reprehenderit odit 
-          commodi natus illo. Enim reprehenderit error 
-          sed molestias consequatur inventore corrupti
-          voluptatem quis voluptatum?</p> 
+      <div id="about" className=" flex flex-col-reverse lg:flex-row-reverse bg-gray-300 py-20 px-12 md:px-36">
+        <div className=" basis-1/2  lg:mx-10">
+          <p className="text-center text-3xl pt-6 lg:pt-0 mt-3 lg:text-left font-bold lg:text-4xl pb-1 pl-4 border-l-4 border-blue-400 ">About Me</p>
+          <p className="text-justify pt-4 lg:text-lg lg:pt-3 text-gray-900 ">I am a versatile software developer, working professionally since January 2023.
+            Currently employed as a Full Stack Developer at Rhizobee Innovations where
+            I am leveraging my skills to develop their platform.
+            I am comfortable in both Windows and Linux environments.
+            My project portfolio also includes work in <span className=" text-blue-900">C++</span>, 
+            <span className=" text-blue-900"> React</span>, and <span className=" text-blue-900">Node.js</span>,
+            showcasing my commitment to excellence and adaptability in the dynamic realm of software development.
+            Coding is my professional forte, where I thrive in crafting digital solutions. 
+            Apart from this, Music is my constant companion with diverse genres.
+            I love travelling which provides new perspectives and
+            enriching experiences that compliment my love for music.<br/>
+            <span className=" text-blue-900">Let's connect to discuss potential synergies and explore opportunities together.</span></p>
 
-          <a href={resume} download="Prashant_Resume">
-          <button className="lg:mt-8 lg:mx-0 mx-auto mt-6 flex flex-row text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl text- 
-                    px-4 py-4 lg:px-8 lg:py-5 dark:bg-gray-800 dark:hover:bg-gray-700
-                     dark:focus:ring-gray-700 dark:border-gray-700"> 
-          <AiTwotoneSnippets className="w-6 h-6 text-white pr-1" />
-          Download CV 
-          </button>
-          </a>
-
-       </div>
-      <div className=" basis-1/2 lg:mx-10 ">
-        <div className="">
-        <img className="rounded-2xl" src={img} alt="" />
+          <div className="">
+            <a href={resume} download="Prashant_Resume" className="inline-block" >
+              <button className="lg:mt-4 lg:mx-0 mx-14 mt-6 flex flex-row text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-gray-300 font-semibold rounded-2xl text- 
+                    px-4 py-4 dark:bg-gray-800 dark:hover:bg-gray-700
+                     dark:focus:ring-gray-700 dark:border-gray-700">
+                <AiTwotoneSnippets className="w-6 h-6 text-white pr-1" />
+                Download CV
+              </button>
+            </a>
+          </div>
         </div>
-      </div>
 
-    </div>
+        <div className=" basis-1/2 lg:mx-10 lg:my-14">
+          <div className="">
+            <img className="rounded-3xl" src={img} alt="" />
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 };

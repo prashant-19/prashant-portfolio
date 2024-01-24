@@ -6,7 +6,7 @@ import { ImGithub } from "react-icons/im";
 const footer = () => {
   return (
     <>
-      <div className="hidden bg-gray-900 text-white w-[100%] py-16">
+      <div className="hidden lg:block bg-gray-900 text-white w-[100%] py-16">
         <div className="flex flex-row mx-20 gap-96">
           <ul className="ml-20">
 
