@@ -4,12 +4,14 @@ const skills = () => {
 
 
     let Skill = [
-        "HTML", "CSS"
+        
         , 'JavaScript'
-        , 'React'
-        , 'Tailwind Css'
+        , 'React.js'
         , 'Node.js'
         , 'Express.js'
+        , 'MERN Stack'
+        , 'RESTful API'
+        , 'Tailwind CSS'
         , 'Data Structures'
         , 'C'
         , 'C++'
@@ -17,8 +19,9 @@ const skills = () => {
         , 'Scoket Programming'
         , 'Python'
         , 'Photoshop'
-        , 'Linux'
-        
+        , 'Linux',
+        "HTML", "CSS"
+
     ]
 
 
