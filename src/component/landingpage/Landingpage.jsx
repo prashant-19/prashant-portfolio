@@ -5,7 +5,7 @@ import Skills from "./skills";
 import Project from "./Project";
 import Contact from "./Contact";
 import Certificate from "./Certificate";
-import Form from "./Form";
+import Form from "./form";
 
 export const Landingpage = () => {
   return (

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import Form from "./Form";
+import Form from "./form";
 
 
 const Contact = () => {
